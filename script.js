@@ -1,5 +1,5 @@
 function greeting(person) {
-    return 'Hello ' + person + '!';
+    return 'Hello ' + person + '!'
 }
 
 function sayHello(person) {
