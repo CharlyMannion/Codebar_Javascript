@@ -7,3 +7,7 @@ function conversation(person) {
     console.log('How are you ' + person + '?');
     console.log('Goodbye ' + person);
 }
+
+function greeting(person) {
+    return 'Hello ' + person + '!';
+}
