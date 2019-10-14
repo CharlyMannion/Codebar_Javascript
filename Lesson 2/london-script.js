@@ -39,4 +39,11 @@ function listDomElements() {
     document.body.appendChild(population);
   }
 
+  function displayTallestBuilding() {
+      var tallestBuilding = document.createElement('p');
+      var content = document.createTextNode('Tallest Building: ' + london.tallestBuilding);
+      tallestBuilding.appendChild(content);
+      document.body.appendChild(tallestBuilding);
+  }
+
   
