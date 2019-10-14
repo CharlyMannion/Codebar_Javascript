@@ -40,15 +40,17 @@ function listDomElements() {
   }
 
   function displayTallestBuilding() {
-      var tallestBuilding = document.createElement('p');
       var content = document.createTextNode('Tallest Building: ' + london.tallestBuilding.name);
-      tallestBuilding.appendChild(content);
-      document.body.appendChild(tallestBuilding);
+      displayInformation(content);
   } 
 
   function displayNumberOfUniversites() {
-      var numberOfUniversities = document.createElement('p');
       var content = document.createTextNode('Number of Universities: ' + london.numberOfUniversities);
-      numberOfUniversities.appendChild(content);
-      document.body.appendChild(numberOfUniversities);
+      displayInformation(content);
+  }
+
+  function displayInformation(content) {
+      var infoToDisplay = document.createElement('p');
+      infoToDisplay.appendChild(content);
+      document.body.appendChild(infoToDisplay);
   }
