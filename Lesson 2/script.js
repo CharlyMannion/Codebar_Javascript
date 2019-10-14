@@ -5,4 +5,8 @@ function sortNumbersAscending(a, b) {
     return a - b;
 }
 
+function sortNumbersDescending(a, b) {
+    return b - a;
+}
+
 
