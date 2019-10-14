@@ -54,3 +54,5 @@ function listDomElements() {
       infoToDisplay.appendChild(content);
       document.body.appendChild(infoToDisplay);
   }
+
+  //refactor to use for loop to go through each part of the object
