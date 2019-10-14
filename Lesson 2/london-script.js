@@ -41,9 +41,14 @@ function listDomElements() {
 
   function displayTallestBuilding() {
       var tallestBuilding = document.createElement('p');
-      var content = document.createTextNode('Tallest Building: ' + london.tallestBuilding);
+      var content = document.createTextNode('Tallest Building: ' + london.tallestBuilding.name);
       tallestBuilding.appendChild(content);
       document.body.appendChild(tallestBuilding);
-  }
+  } 
 
-  
+  function displayNumberOfUniversites() {
+      var numberOfUniversities = document.createElement('p');
+      var content = document.createTextNode('Number of Universities: ' + london.numberOfUniversities);
+      numberOfUniversities.appendChild(content);
+      document.body.appendChild(numberOfUniversities);
+  }
