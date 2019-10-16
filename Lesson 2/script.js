@@ -9,4 +9,11 @@ function sortNumbersDescending(a, b) {
     return b - a;
 }
 
+function displayInformation(content) {
+    var infoToDisplay = document.createElement('p');
+    infoToDisplay.appendChild(content);
+    document.body.appendChild(infoToDisplay);
+}
+
+
 
