@@ -10,8 +10,9 @@ function sortNumbersDescending(a, b) {
 }
 
 function displayAscending() {
-    var answer = sortNumbersAscending()
-    var stringAnswer = "numbers in ascending order"
+    var answer = sortNumbersAscending();
+    // var stringAnswer = "numbers in ascending order"
+    var stringAnswer = answer.toString();
     var content = document.createTextNode(stringAnswer);
     displayInformation(content);
 } 
