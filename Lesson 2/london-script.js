@@ -55,4 +55,14 @@ function listDomElements() {
       document.body.appendChild(infoToDisplay);
   }
 
+//   function showInformation() {
+//     var text = "";
+//     if (navigator.cookieEnabled == true) {
+//       text = "cookies are enabled.";
+//     } else {
+//       text = "cookies are not enabled."
+//     }
+//     document.getElementById("demo").innerHTML = "text";
+//   }
+
   //refactor to use for loop to go through each part of the object
