@@ -9,6 +9,13 @@ function sortNumbersDescending(a, b) {
     return b - a;
 }
 
+function displayAscending() {
+    var answer = sortNumbersAscending()
+    var stringAnswer = "numbers in ascending order"
+    var content = document.createTextNode(stringAnswer);
+    displayInformation(content);
+} 
+
 function displayInformation(content) {
     var infoToDisplay = document.createElement('p');
     infoToDisplay.appendChild(content);
