@@ -10,15 +10,15 @@ function sortNumbersDescending(a, b) {
 }
 
 function displayAscending() {
-    var answer = sortNumbersAscending();
-    var stringAnswer = "numbers in ascending order"
-    // var stringAnswer = answer.toString();
+    var answer = nums.sort(sortNumbersAscending);
+    // var stringAnswer = "numbers in ascending order"
+    var stringAnswer = answer.toString();
     var content = document.createTextNode("Ascending: $s".replace('$s', stringAnswer));
     displayInformation(content);
 }
 
 function displayDescending() {
-    var answer = sortNumbersDescending();
+    var answer = sortNumbersDescending;
     var stringAnswerDescending = "numbers in descending order"
     // var stringAnswer = answer.toString();
     var content = document.createTextNode("Descending: " + stringAnswerDescending);
